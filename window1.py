@@ -1,4 +1,5 @@
-from PyQt5 import QtCore, QtWidgets, QtGui
+from PyQt5 import QtCore, QtWidgets
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -15,6 +16,8 @@ class Ui_MainWindow(object):
         self.name.addItem('Полетаев')
         self.name.addItem('Сухов')
         self.name.addItem('Кошелев')
+        self.name.addItem('Куренкова')
+        self.name.addItem('Мочалов')
         self.mounth = QtWidgets.QComboBox(self.centralwidget)
         self.mounth.setGeometry(QtCore.QRect(240, 10, 110, 23))
         self.mounth.setObjectName("mounth")
